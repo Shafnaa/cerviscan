@@ -1,0 +1,8 @@
+flask
+numpy
+opencv-python
+pandas
+Flask-SQLAlchemy
+scikit-learn
+scikit-image
+pillow
