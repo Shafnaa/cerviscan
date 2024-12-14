@@ -1,6 +1,6 @@
 import cv2
 
 def __main__(image: cv2.Mat):
-    gray_image = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
+    gray_image = cv2.cvtColor(image, cv2.COLOR_RGB2GRAY)
     
     return gray_image

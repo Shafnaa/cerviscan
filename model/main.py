@@ -9,7 +9,6 @@ import pickle
 import xgboost
 import pandas as pd
 import cv2
-# import matplotlib.pyplot as plt 
 
 
 def main(image: cv2.Mat):

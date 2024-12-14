@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 from skimage.filters import threshold_multiotsu
 
-def __main__(image: cv2.Mat):
+def __main__(image: cv2.Mat) -> cv2.Mat:
     # Compute multi-Otsu thresholds
     threshold = threshold_multiotsu(image, classes=5)
 
